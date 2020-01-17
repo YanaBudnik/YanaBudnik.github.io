@@ -1,0 +1,56 @@
+@font-face {
+   font-family: AvenirNextLTPro;
+   font-weight: bold;
+   src: url(fonts/AvenirNextLTPro-Bold.otf);
+}
+
+@font-face {
+   font-family: AvenirNextLTPro;
+   font-weight: 600;
+   src: url(fonts/AvenirNextLTPro-Demi.otf);
+}
+
+@font-face {
+   font-family: AvenirNextLTPro;
+   font-weight: normal;
+   src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+   font-family: AvenirNextLTPro;
+   font-weight: normal;
+   font-style: italic;
+   src: url(fonts/AvenirNextLTPro-It.otf);
+}
+
+$demi: 600;
+
+@mixin font-standard($size, $weight: normal) {
+  font: $weight $size AvenirNextLTPro, sans-serif;
+}
+
+$primary-color: #fff;
+$secondary-color: #232323;
+$footer-color: #c9c9c9;
+$additional-color: #f4f4f4;
+$gray: #707070;
+$white-dark: #eeeeee;
+$white-gray: #e3e3e3;
+
+/*
+ @font-face {
+     font-family: AvenirNextLTPro-BoldCn;
+     src: url(fonts/AvenirNextLTPro-BoldCn.otf);
+ }
+
+
+ @font-face {
+     font-family: AvenirNextLTPro-DemiCn;
+     src: url(fonts/AvenirNextLTPro-DemiCn.otf);
+ }
+
+ @font-face {
+     font-family: AvenirNextLTPro-It;
+     src: url(fonts/AvenirNextLTPro-It.otf);
+ }
+*/

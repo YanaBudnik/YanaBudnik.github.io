@@ -1,0 +1,40 @@
+.component_imgix {
+	display: block;
+	width: 100%;
+	&-man {
+		display: block;
+		flex: 1 1 50%;
+		width: 50%;
+		height: 100%;
+	}
+}
+.hero-title {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: .5px;
+	color: $primary-color;
+	margin-bottom: 0;
+	white-space: normal;
+}
+.component_imgix-pants {
+	display: block;
+	width: 100%;
+}
+.advantage_img {
+	overflow: hidden;
+	text-align: center;
+	margin-top: 20px;
+}
+.contant-title {
+	font-weight: 600;
+	font-size: 20px;
+}
+.contant-description {
+	font-weight: normal;
+	line-height: 1.5;
+	font-size: 15px;
+	margin-bottom: 20px;
+	padding-left: 55px;
+	padding-right: 55px;
+}

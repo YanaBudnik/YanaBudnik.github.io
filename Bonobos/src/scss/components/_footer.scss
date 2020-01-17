@@ -1,0 +1,211 @@
+.container_footer {
+    border-top: 1px solid transparent;
+    padding: 48px 32px;
+    overflow: hidden;
+    background-color: $secondary-color;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    &-social {
+        width: 33%;
+    }
+}
+
+.icons {
+    padding-bottom: 20px;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 8px;
+    &_inital {
+        position: relative;
+    }
+    &:hover .icon-instagram_invisible {
+        visibility: visible;
+        opacity: 100;
+        left: 32px;
+        transition: opacity .1s;
+    }
+    &:hover .icon-facebook_invisible {
+        visibility: visible;
+        opacity: 100;
+        left: 69px;
+        transition: opacity .1s;
+    }
+    &:hover .icon-twitter_invisible {
+        visibility: visible;
+        opacity: 100;
+        left: 94px;
+        transition: opacity .1s;
+    }
+    &:hover .icon-youtube_invisible {
+        visibility: visible;
+        opacity: 100;
+        left: 133px;
+        transition: opacity .1s;
+    }
+}
+.icon-instagram_invisible {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+}
+.icon-facebook_invisible {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+}
+.icon-twitter_invisible {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+}
+.icon-youtube_invisible {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    padding-right: 32px;
+    &-title {
+        font-weight: 600;
+        font-size: 14px;
+        color: $primary-color;
+        line-height: 1.5;
+        margin-bottom: 8px;
+    }
+    &-description {
+        font-weight: normal;
+        font-size: 14px;
+        color: $footer-color;
+        margin-bottom: 8px;
+    }
+    &-link {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-top: 8px;
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}
+.guidebook {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    display: block;
+    margin-right: 16px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    color: $primary-color;
+    width: 33%;
+}
+
+.linkRow {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.inform {
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.5;
+    color: $additional-color;
+    margin: 8px 0;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    &_title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 8px;
+        display: block;
+    }
+    &_description {
+        font-weight: normal;
+        line-height: 1.5;
+        margin: 0 0 16px;
+        white-space: pre-line;
+        color: $footer-color;
+    }
+    &_form {
+        position: relative;
+        display: block;
+        color: $additional-color;
+        &-button {
+            display: flex;
+            width: 50px;
+            padding: 10px 1;
+        }
+    }
+    &_bottom {
+        text-align: left;
+    }
+}
+.container_email {
+    color: $additional-color;
+    margin-bottom: 16px;
+}
+.container_form {
+    display: flex;
+    &-email {
+        font-weight: normal;
+        display: inline-block;
+        width: 100%;
+        text-transform: none;
+        color: $secondary-color;
+    }
+}
+.container_address {
+    display: block;
+}
+.address {
+    height: 56px;
+    width: 380px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: text;
+}
+
+.email_form-button {
+    display: flex;
+    width: 50px;
+    margin-left: -4px;
+    padding: 10px 1;
+}
+.container_button {
+    color: $primary-color;
+    border: 15px solid transparent;
+    background: #4c4c4c;
+    cursor: pointer;
+    &:hover {
+        background-color: #6A6A6A;
+    }
+}
+.terms {
+    font-weight: normal; 
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 16px 0;
+    width: 100%;
+    color: $footer-color;
+    text-align: center;
+}
+.terms span a {
+    color: $footer-color;
+}
